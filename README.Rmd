@@ -1,0 +1,35 @@
+---
+title: "Seasonal_epigenome"
+author: "Haruki Nishio"
+date: "2025/1/3"
+---
+
+```{r setting, include=F}
+knitr::opts_chunk$set(echo = F, warning = F)
+
+# Load libraries
+library(rmdformats)
+library(knitr)
+```
+
+### 01_STM_forloop_1.R
+R code for the smooth trend model to evaluate the seasonal trend in gene expression and epigenetic marks. This example code is designed to analyze H3K4me1 levels across 100 genes.
+
+### 02_MM_allbins_150bp.R
+R code for the Bayesian Markov Model for temporal transitions of chromatin states across two years. This example code is designed to analyze 1,000 bins.
+
+### 03_Distance_chrom_pattern_150bp_weighted_forloop0.py
+Python code to quantify chromatin state differences across time and genome between genes. This example code is designed to analyze 100 genes.
+
+### 04_SMAtemp_his_SOgenes_Bayes.R
+R code for the Bayesian constrained ordinal model. This example code is designed to analyze 10,000 genes.
+
+### data
+Example data for running the codes.
+
+### functions
+Custom functions for analyses.
+
+### stan_model
+Stan codes for Bayesian models.
+
